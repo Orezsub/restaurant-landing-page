@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url("../img/header/header_background.jpg");
+    background-size: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 1350px;
+    height: 100vh;
+    /*background: #ffed83;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/header/header_leaves.png");
+}
+
+.header-navigation {
+    background: green;
+    width: 800px;
+    height: 51px;
+    margin-left: auto;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation__search {
+    background: #c65b45;
+    width: 180px;
+    height: inherit;
+}
+
+.footer {
+    height: 100px;
+}
