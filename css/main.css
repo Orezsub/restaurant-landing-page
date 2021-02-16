@@ -27,7 +27,7 @@ form {
     /*margin: 0 auto;*/
 }
 
-.header {
+.main {
     margin: 0;
     background-image: url("../img/header/header_background.jpg");
     background-size: 100% 100%;
@@ -193,7 +193,14 @@ form {
     bottom: 40px;
     /*top: -100px;*/
     left: -130px;
-    width: 33vmin;
+    width: 30vmin;
+}
+
+.header-content-pictures__leaves {
+    position: absolute;
+    bottom: -120px;
+    left: 150px;
+    width: 55vmin;
 }
 
 .footer {
