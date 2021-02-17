@@ -12,7 +12,7 @@
     font-family: Montserrat-Regular;
     src: url('./fonts/Montserrat-Regular.ttf');
 }
-
+/* MENU */
 .menu {
     background-color: #fff;
     padding-bottom: 50px;
@@ -30,7 +30,6 @@
     font-family: Reey-Regular, serif;
     font-size: 4rem;
     line-height: 1.7;
-    /*margin-top: 2vw;*/
 }
 
 .menu-text__annotation {
@@ -49,17 +48,14 @@
     flex: 1;
     text-align: -webkit-center;
     margin-top: 94px;
-    /*margin-top: 6vw;*/
 }
 
 .menu-dishes__item > img {
-    /*width: 100%;*/
     height: 23em;
 }
 
 .menu-dishes__title {
     font-family: 'Open Sans', sans-serif;
-    /*font-weight: 600;*/
     font-size: 2rem;
     padding-left: 20%;
     text-align: left;
@@ -79,7 +75,6 @@
     position: relative;
     width: 330px;
     height: 47px;
-    /*margin-top: 127px;*/
     margin: 9vw auto 0;
 }
 
@@ -95,7 +90,6 @@
     background: #343434;
     width: inherit;
     border-radius: 35px;
-
     padding: .9rem 0;
 }
 
@@ -112,6 +106,7 @@
     }
 }
 
+/* INFORMATION */
 .information {
     background-color: #27292c;
     color: white;
@@ -130,24 +125,12 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
-    /*margin: 0 5%;*/
 }
 
 .information-text__item {
     width: calc(50% - 34px);
-    /*margin: 66px 30px 0;*/
     margin: 5vw 0 0;
 
-}
-
-@media (max-width: 767px) {
-    .information-text {
-        flex-direction: column;
-    }
-    .information-text__item {
-        text-align: center;
-        width: inherit;
-    }
 }
 
 .information__more-info-button {
@@ -155,7 +138,6 @@
     position: relative;
     width: 270px;
     height: 58px;
-    /*margin: 75px auto 50px;*/
     margin: 5vw auto 0;
 }
 
@@ -174,3 +156,109 @@
     border-radius: 22px;
     padding: .9rem 0;
 }
+
+@media (max-width: 767px) {
+    .information-text {
+        flex-direction: column;
+    }
+    .information-text__item {
+        text-align: center;
+        width: inherit;
+    }
+}
+
+/* DISCOUNTS */
+.discounts {
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.discounts-catalog {
+    display: flex;
+    flex-direction: column;
+}
+
+.discounts-item {
+    display: flex;
+    align-items: center;
+}
+
+.discounts-item-img {
+    flex: 2;
+    max-width: 680px;
+}
+
+.discounts-item-img > img {
+    width: 100%;
+}
+
+.discounts-item-info {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.discounts-item-info__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.65rem;
+}
+
+.discounts-item-info__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.discounts-item-info__read-more-button {
+    width: 334px;
+    height: 75px;
+    margin: 5vw 0 0;
+}
+
+.discounts-item-info__read-more-button a{
+    font-family: Montserrat-Bold, serif;
+    font-size: 1.6rem;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #fff;
+    background: #27292c;
+    width: inherit;
+    border-radius: 35px;
+    padding: 1.3rem 0;
+}
+
+@media (max-width: 992px) {
+    .discounts-item {
+        flex-direction: column;
+    }
+
+    .discounts-item_last {
+        flex-direction: column-reverse;
+    }
+
+    .discounts-item-info__title {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
