@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+.footer {
+    background-image: url("../img/footer/background.png");
+    background-size: 100% 100%;
+    background-color: #c65b45;
+    padding-bottom: 400px;
+}
+
+.footer-info {
+    font-family: Montserrat-Regular, serif;
+    padding-top: 330px;
+    display: flex;
+}
+
+.footer-info-social__icons {
+    filter: invert(.8);
+    /*filter: invert(1);*/
+}
+
+.footer-info-item__list > ul {
+    padding: unset;
+    list-style-type: none;
+    white-space: nowrap;
+}
