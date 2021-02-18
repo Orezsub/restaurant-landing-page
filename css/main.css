@@ -23,8 +23,6 @@ a {
 
 form {
     position: relative;
-    /*width: 300px;*/
-    /*margin: 0 auto;*/
 }
 
 .main {
@@ -40,7 +38,6 @@ form {
 }
 
 .main-navigation {
-    /*background: green;*/
     max-width: 800px;
     margin-left: auto;
     padding-top: 45px;
@@ -98,12 +95,10 @@ form {
 }
 .main-navigation__search button:before{
     content: "\f002";
-    /*font-family: FontAwesome;*/
     color: #324b4e;
 }
 
 .main-content{
-    /*background: #ff78f2;*/
     display: flex;
     flex-wrap: wrap;
     /*margin-top: 100px;*/
@@ -112,7 +107,6 @@ form {
 
 .main-content-info {
     flex: 5;
-    /*background: #c65b45;*/
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -175,7 +169,6 @@ form {
     /*margin-top: 62px;*/
     margin-top: 3.5vw;
     position: relative;
-    /*height: 70vmin;*/
 }
 
 .main-content-pictures__main-dish {
