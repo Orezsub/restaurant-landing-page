@@ -11,6 +11,7 @@
     padding-top: 20vw;
     display: flex;
     justify-content: space-between;
+    margin: 0 25px;
 }
 
 .footer-info-social {
@@ -58,12 +59,25 @@
     .footer-info {
         flex-direction: column;
         align-items: center;
+        margin: unset;
+    }
+    .footer-info-social {
         text-align: center;
     }
     .footer-info-social__icons {
         margin-top: 20px;
     }
     .footer-info-catalog {
+        width: 100%;
         justify-content: space-around;
+    }
+    .footer-info-item {
+        margin: unset;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-info-catalog {
+        text-align: center;
     }
 }
