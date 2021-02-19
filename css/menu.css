@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Open Sans ExtraBold";
-    src: url('./fonts/Open Sans ExtraBold.ttf');
-}
-
-@font-face {
     font-family: Montserrat-Bold;
     src: url('./fonts/Montserrat-Bold.ttf');
 }
@@ -56,15 +51,14 @@
 }
 
 .menu-dishes__title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: OpenSans-Bold, serif;
     font-size: 2rem;
     padding-left: 20%;
     text-align: left;
 }
 
 .menu-dishes__description {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: OpenSans-Regular, sans-serif;
     font-size: 1.4rem;
     margin-top: 33px;
     padding-left: 20%;
@@ -80,7 +74,7 @@
 }
 
 .menu__show-more-button a {
-    font-family: "Open Sans ExtraBold", serif;
+    font-family: OpenSans-ExtraBold, serif;
     font-size: 1.4rem;
     position: absolute;
     top: 50%;
@@ -136,7 +130,6 @@
 .information-text__item {
     width: calc(50% - 34px);
     margin: 5vw 0 0;
-
 }
 
 .information__more-info-button {

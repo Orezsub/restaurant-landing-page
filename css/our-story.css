@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Open Sans SemiBold";
-    src: url('./fonts/OpenSans-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: Montserrat-Regular;
-    src: url('./fonts/Montserrat-Regular.ttf');
-}
-
 .our-story {
     padding-top: 127px;
     background-image: url("../img/our-story/background.png");
@@ -115,15 +105,14 @@
 }
 
 .message-info-item__text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 1.1rem;
     margin-top: 30px;
     text-align: left;
 }
 
 .message-info__text {
-    font-family: "Open Sans SemiBold", serif;
+    font-family: OpenSans-SemiBold, serif;
     font-size: 1.5rem;
     margin-top: 240px;
     hyphens: auto;
@@ -132,8 +121,7 @@
     margin-right: auto;
 }
 .message-info__author {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-family: OpenSans-Bold, sans-serif;
     font-size: 1.6rem;
     margin-top: 65px;
     padding-bottom: 200px;

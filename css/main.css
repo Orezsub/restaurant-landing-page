@@ -4,13 +4,33 @@
 }
 
 @font-face {
-    font-family: "Open Sans Bold Italic";
-    src: url('./fonts/Open Sans Bold Italic.ttf');
+    font-family: OpenSans-Regular;
+    src: url('./fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: "Open Sans ExtraBold";
-    src: url('./fonts/Open Sans ExtraBold.ttf');
+    font-family: OpenSans-Bold;
+    src: url('./fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url('./fonts/OpenSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url('./fonts/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url('./fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url('./fonts/OpenSans-ExtraBold.ttf');
 }
 
 body {
@@ -49,9 +69,9 @@ form {
 }
 
 .main-navigation__item {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-family: OpenSans-Bold, sans-serif;
     font-size: 14px;
+    letter-spacing: 5px;
     color: #ffffff;
 }
 
@@ -83,7 +103,6 @@ form {
 .main-content{
     display: flex;
     flex-wrap: wrap;
-    /*margin-top: 100px;*/
     margin-top: 6vw;
 }
 
@@ -94,24 +113,18 @@ form {
     flex-direction: column;
 }
 
-.main-content-info__logo {
-    /*margin-top: 2vw;*/
-}
-
 .main-content-info__title {
     font-family: Reey-Regular, serif;
     font-size: 5.3rem;
     white-space: nowrap;
     line-height: 1.7;
-    /*margin-top: 33px;*/
     margin-top: 2vw;
 }
 
 .main-content-info__text {
-    font-family: "Open Sans Bold Italic", serif;
+    font-family: OpenSans-BoldItalic, serif;
     font-size: 1.3rem;
     letter-spacing: 6px;
-    /*margin-top: 100px;*/
     margin-top: 6vw;
 }
 
@@ -119,12 +132,11 @@ form {
     width: 220px;
     height: 47px;
     position: relative;
-    /*margin-top: 66px;*/
     margin-top: 4vw;
 }
 
 .main-content-info__reed-more-button a {
-    font-family: "Open Sans ExtraBold", serif;
+    font-family: OpenSans-ExtraBold, serif;
     font-size: 1.3rem;
     text-align: center;
     color: #292c31;
@@ -138,21 +150,17 @@ form {
 }
 
 .main-content-info__additional-text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-style: italic;
+    font-family: OpenSans-Italic, sans-serif;
+    hyphens: auto;
     font-size: 1.4rem;
-    /*margin-top: 27px;*/
     margin-top: 2vw;
     max-width: 75%;
 }
 
 .main-content-pictures {
     flex: 1;
-    /*margin-top: 62px;*/
     margin-top: 3.5vw;
     position: relative;
-    /*padding-left: 10%;*/
 }
 
 .main-content-pictures__main-dish {
