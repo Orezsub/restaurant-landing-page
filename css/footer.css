@@ -12,8 +12,21 @@
 
 .footer-info {
     font-family: Montserrat-Regular, serif;
+    font-size: 1.2rem;
     padding-top: 330px;
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-info-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-info-social__text {
+    max-width: 460px;
+
 }
 
 .footer-info-social__icons {
@@ -21,8 +34,27 @@
     /*filter: invert(1);*/
 }
 
-.footer-info-item__list > ul {
-    padding: unset;
-    list-style-type: none;
+.footer-info-catalog {
+    display: flex;
+}
+
+.footer-info-item {
+    margin-left: 50px;
+}
+
+.footer-info-social__title, .footer-info-item__title {
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+}
+
+.footer-info-item__list{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-info-item__list a {
     white-space: nowrap;
+    margin-top: 15px;
+    color: #343434;
 }
