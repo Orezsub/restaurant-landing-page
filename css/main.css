@@ -184,8 +184,8 @@ form {
 .main-content-pictures__leaves {
     position: absolute;
     bottom: -120px;
-    left: 150px;
-    width: 55vmin;
+    left: 160px;
+    width: 80%;
 }
 
 @media (max-width: 1349px) {
