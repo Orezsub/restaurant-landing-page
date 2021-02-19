@@ -68,6 +68,7 @@ form {
     margin-left: 25px;
     padding: unset;
 }
+
 .main-navigation__search button {
     background: url("../img/main/search.png") no-repeat center center;
     width: 42px;
@@ -87,7 +88,7 @@ form {
 }
 
 .main-content-info {
-    flex: 5;
+    flex: 1;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -100,6 +101,7 @@ form {
 .main-content-info__title {
     font-family: Reey-Regular, serif;
     font-size: 5.3rem;
+    white-space: nowrap;
     line-height: 1.7;
     /*margin-top: 33px;*/
     margin-top: 2vw;
@@ -146,27 +148,29 @@ form {
 }
 
 .main-content-pictures {
-    flex: 4;
+    flex: 1;
     /*margin-top: 62px;*/
     margin-top: 3.5vw;
     position: relative;
+    /*padding-left: 10%;*/
 }
 
 .main-content-pictures__main-dish {
-    /*position: absolute;*/
-    /*right: 0;*/
     display: block;
     margin-left: auto;
     margin-bottom: 180px;
-    width: 71vmin;
+}
+
+.main-content-pictures__main-dish img {
+    width: 100%;
+    max-width: 632px;
 }
 
 .main-content-pictures__second-dish {
     position: absolute;
-    bottom: 40px;
-    /*top: -100px;*/
-    left: -130px;
-    width: 30vmin;
+    transform: translate(-50%, -45%);
+    width:  50%;
+    max-width: 293px;
 }
 
 .main-content-pictures__leaves {
@@ -174,4 +178,50 @@ form {
     bottom: -120px;
     left: 150px;
     width: 55vmin;
+}
+
+@media (max-width: 1349px) {
+    .leaves {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .main-content-info {
+        text-align: center;
+        align-items: center;
+    }
+    .main-content-info__title {
+        white-space: unset;
+    }
+    .main-content-info__reed-more-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-content-info__reed-more-button a {
+        top: unset;
+        transform: translate(-50%, 0);
+    }
+    .main-content-pictures__main-dish {
+        margin-left: 20%;
+    }
+    .main-content-pictures__main-dish img {
+        display: block;
+        margin-left: auto;
+    }
+    .main-content-pictures__second-dish {
+        right: 0;
+        transform: translate(-170%, -45%);
+    }
+}
+
+@media (max-width: 767px) {
+    .main-content-pictures__second-dish {
+        right: 0;
+        transform: translate(-120%, -45%);
+    }
 }
