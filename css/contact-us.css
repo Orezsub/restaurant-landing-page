@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 230px;
+    padding-top: 15vw;
     position: relative;
 }
 
@@ -37,41 +37,46 @@
 }
 
 .contact-us-info-form {
-    /*display: block;*/
     width: 100%;
     margin: 85px 0 230px;
+    max-width: 820px;
+    position: relative;
+    z-index: 100;
 }
 
 .contact-us-info-form > form > input {
     font-family: OpenSans-Regular, serif;
-
     font-size: 1.3rem;
     padding: 15px 1.9rem;
     border-radius: 30px;
-    max-width: calc(100% - 230px - 1.9rem*2);
+    width: calc(100% - 230px - 1.9rem*2);
+    position: relative;
+    left: 25px;
     min-width: 300px;
 }
 
 .contact-us-info-form > form > button {
     font-family: OpenSans-Bold, serif;
-
     font-size: 1.5rem;
     background-color: #54524f;
     color: #fff;
     width: 220px;
     border-radius: 30px;
     border: unset;
-
     padding: 14px .5rem;
-
     position: relative;
     top: 2px;
-    left: -50px;
-    z-index: 1;
+    left: -25px;
+    z-index: 4;
+}
+
+.contact-us-info-form > form > button:hover {
+    cursor: pointer;
 }
 
 .contact-us-info__leaves {
     position: absolute;
+    z-index: 1;
     top: -7%;
     width: 100vw;
     max-width: 1350px;
