@@ -50,6 +50,7 @@
     top: -100%;
     width: 100vw;
     max-width: 1350px;
+    z-index: 1;
 }
 
 .our-story__leaves img {
