@@ -1,19 +1,14 @@
-@font-face {
-    font-family: Montserrat-Regular;
-    src: url('./fonts/Montserrat-Regular.ttf');
-}
-
 .footer {
     background-image: url("../img/footer/background.png");
     background-size: 100% 100%;
     background-color: #c65b45;
-    padding-bottom: 400px;
+    padding-bottom: 26vw;
 }
 
 .footer-info {
     font-family: Montserrat-Regular, serif;
     font-size: 1.4rem;
-    padding-top: 330px;
+    padding-top: 20vw;
     display: flex;
     justify-content: space-between;
 }
@@ -36,24 +31,21 @@
 .footer-info-catalog {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /*justify-content: space-around;*/
 }
 
 .footer-info-item {
-    margin-top: 30px;
     margin-left: 50px;
 }
 
 .footer-info-social-text__title, .footer-info-item__title {
     font-size: 1.5rem;
+    margin-top: 30px;
     padding-bottom: 15px;
 }
 
 .footer-info-item__list{
     display: flex;
     flex-direction: column;
-
 }
 
 .footer-info-item__list a {
