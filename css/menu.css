@@ -28,8 +28,7 @@
 }
 
 .menu-text__annotation {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: OpenSans-Regular, sans-serif;
     font-size: 1.5rem;
     margin-top: 37px;
 }
@@ -204,8 +203,7 @@
 }
 
 .discounts-item-info__text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: OpenSans-Regular, sans-serif;
     font-size: 2rem;
     margin-top: 40px;
 }

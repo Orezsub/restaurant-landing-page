@@ -76,3 +76,16 @@
     display: block;
     width: 100%;
 }
+
+@media (max-width: 630px) {
+    .contact-us-info-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us-info-form > form > input {
+        width: calc(100% - 1.9rem*2);
+    }
+    .contact-us-info-form > form > input, .contact-us-info-form > form > button {
+        left: unset;
+    }
+}
