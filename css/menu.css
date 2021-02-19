@@ -215,6 +215,7 @@
     width: 334px;
     height: 75px;
     margin: 5vw 0 0;
+    z-index: 2;
 }
 
 .discounts-item-info__read-more-button a{
