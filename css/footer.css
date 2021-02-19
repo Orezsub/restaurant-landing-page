@@ -12,7 +12,7 @@
 
 .footer-info {
     font-family: Montserrat-Regular, serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-top: 330px;
     display: flex;
     justify-content: space-between;
@@ -24,26 +24,29 @@
     justify-content: space-between;
 }
 
-.footer-info-social__text {
+.footer-info-social-text__message {
     max-width: 460px;
-
+    margin-top: 15px;
 }
 
 .footer-info-social__icons {
     filter: invert(.8);
-    /*filter: invert(1);*/
 }
 
 .footer-info-catalog {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*justify-content: space-around;*/
 }
 
 .footer-info-item {
+    margin-top: 30px;
     margin-left: 50px;
 }
 
-.footer-info-social__title, .footer-info-item__title {
-    font-size: 1.4rem;
+.footer-info-social-text__title, .footer-info-item__title {
+    font-size: 1.5rem;
     padding-bottom: 15px;
 }
 
@@ -57,4 +60,13 @@
     white-space: nowrap;
     margin-top: 15px;
     color: #343434;
+}
+
+@media (max-width: 1024px) {
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-info-item {
+    }
 }
