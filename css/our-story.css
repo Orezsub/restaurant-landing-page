@@ -1,0 +1,134 @@
+.our-story {
+    padding-top: 127px;
+    background-image: url("../img/our-story/background.png");
+    background-size: 100% 100%;
+    margin-bottom: -150px;
+}
+
+.our-story-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #f8f6f1;
+    position: relative;
+}
+
+.our-story__title {
+    font-family: Reey-Regular, serif;
+    font-size: 3.6rem;
+    line-height: 1.7;
+    max-width: 855px;
+}
+
+.our-story__text {
+    font-family: Montserrat-Regular, serif;
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin-top: 55px;
+}
+
+.our-story__design {
+    width: 162px;
+    height: 10px;
+    margin-top: 45px;
+    background-color: #fafafa;
+}
+
+.our-story__leaves {
+    position: absolute;
+    top: -100%;
+    width: 100vw;
+    max-width: 1350px;
+    z-index: 1;
+}
+
+.our-story__leaves img {
+    display: block;
+    width: 100%;
+}
+
+.our-story-images {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.our-story-images__pizza {
+    display: block;
+    margin-left: auto;
+    padding-left: 10%;
+}
+
+.our-story-images__pizza img {
+    width: 100%;
+}
+
+.our-story-images__piece-of-pizza {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-35%, 5%);
+    width: 50%;
+    max-width: 448px;
+}
+
+@media (max-width: 992px) {
+    .our-story {
+        margin-bottom: -15%;
+    }
+}
+
+/*MASSAGE*/
+.message {
+    background-color: #fff;
+    text-align: center;
+}
+
+.message-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 160px;
+    margin: 0 70px;
+}
+
+.message-info-item {
+    flex: 1;
+    margin: 0 30px;
+}
+
+.message-info-item__title {
+    font-family: Reey-Regular, serif;
+    font-size: 2.6rem;
+    line-height: 1.7;
+    white-space: nowrap;
+    margin-top: 40px;
+}
+
+.message-info-item__text {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.message-info__text {
+    font-family: OpenSans-SemiBold, serif;
+    font-size: 1.5rem;
+    margin-top: 240px;
+    hyphens: auto;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.message-info__author {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 65px;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 992px) {
+    .message-info {
+        margin: 0 15px;
+    }
+}

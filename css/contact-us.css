@@ -1,0 +1,90 @@
+.contact-us {
+    background-image: url("../img/contact-us/background.png");
+    background-size: 100% 100%;
+    color: #fff;
+    margin-bottom: -50px;
+}
+
+.contact-us-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 15vw;
+    position: relative;
+}
+
+.contact-us-info__title {
+    font-family: OpenSans-Bold, serif;
+    font-size: 3rem;
+}
+
+.contact-us-info__text {
+    font-family: OpenSans-Regular, serif;
+    font-size: 1.3rem;
+    max-width: 900px;
+    margin-top: 75px;
+}
+
+.contact-us-info-form {
+    width: 100%;
+    margin: 85px 0 230px;
+    max-width: 820px;
+    position: relative;
+    z-index: 100;
+}
+
+.contact-us-info-form > form > input {
+    font-family: OpenSans-Regular, serif;
+    font-size: 1.3rem;
+    padding: 15px 1.9rem;
+    border-radius: 30px;
+    width: calc(100% - 230px - 1.9rem*2);
+    position: relative;
+    left: 25px;
+}
+
+.contact-us-info-form > form > button {
+    font-family: OpenSans-Bold, serif;
+    font-size: 1.5rem;
+    background-color: #54524f;
+    color: #fff;
+    width: 220px;
+    border-radius: 30px;
+    border: unset;
+    padding: 14px .5rem;
+    position: relative;
+    top: 2px;
+    left: -25px;
+    z-index: 4;
+}
+
+.contact-us-info-form > form > button:hover {
+    cursor: pointer;
+}
+
+.contact-us-info__leaves {
+    position: absolute;
+    z-index: 1;
+    top: -7%;
+    width: 100vw;
+    max-width: 1350px;
+}
+
+.contact-us-info__leaves img {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 630px) {
+    .contact-us-info-form > form > input {
+        width: calc(100% - 1.9rem*2);
+    }
+    .contact-us-info-form > form > button {
+        margin-top: 30px;
+    }
+    .contact-us-info-form > form > input, .contact-us-info-form > form > button {
+        left: unset;
+    }
+
+}
