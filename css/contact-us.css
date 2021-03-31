@@ -15,12 +15,13 @@
 }
 
 .contact-us-info__title {
-    font-family: OpenSans-Bold, serif;
+    font-family: OpenSans, serif;
+    font-weight: 700;
     font-size: 3rem;
 }
 
 .contact-us-info__text {
-    font-family: OpenSans-Regular, serif;
+    font-family: OpenSans, serif;
     font-size: 1.3rem;
     max-width: 900px;
     margin-top: 75px;
@@ -35,7 +36,7 @@
 }
 
 .contact-us-info-form > form > input {
-    font-family: OpenSans-Regular, serif;
+    font-family: OpenSans, serif;
     font-size: 1.3rem;
     padding: 15px 1.9rem;
     border-radius: 30px;
@@ -45,7 +46,8 @@
 }
 
 .contact-us-info-form > form > button {
-    font-family: OpenSans-Bold, serif;
+    font-family: OpenSans, serif;
+    font-weight: 700;
     font-size: 1.5rem;
     background-color: #54524f;
     color: #fff;
